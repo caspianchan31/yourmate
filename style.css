@@ -1,0 +1,9 @@
+:root{--bg:#f7f1e8;--ink:#221c2e;--dim:#6e6478;--pink:#ff5c8c;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1826;--ink:#f3eef8;--dim:#a79fb4;--card:#282236}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.75 -apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 20px 80px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:28px}header img{width:56px;height:56px;border-radius:13px}header b{font-size:22px}
+h1{font-size:34px;line-height:1.25;margin:8px 0 6px}h1 em{font-style:normal;color:var(--pink)}h2{font-size:21px;margin:34px 0 8px}
+p,li{color:var(--ink)}.meta{color:var(--dim);font-size:15px}.lead{background:var(--card);border-radius:18px;padding:18px 20px;font-weight:600}
+ul{padding-left:1.2em}a{color:var(--pink)}hr{border:0;border-top:1px solid rgba(128,128,128,.25);margin:44px 0}
+nav{margin-top:44px;font-size:15px}nav a{margin-right:18px}
